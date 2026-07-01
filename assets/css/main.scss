@@ -1,0 +1,37 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+@use "themes";
+@use "layout";
+
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+:root {
+  --global-code-bg-color: rgba(0, 171, 55, 0.05);
+  --global-theme-color: #00ab37;
+  --global-hover-color: #009f06;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #11d68b;
+  --global-hover-color: #11d68b;
+}

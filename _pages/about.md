@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Engineer @ <a href='https://github.com/KlingAIResearch'>Kling Team</a>, <a href='https://www.kuaishou.com/en'>Kuaishou Technology</a>
+subtitle: Researcher @ <a href='https://github.com/KlingAIResearch'>Kling Team</a>, <a href='https://www.kuaishou.com/en'>Kuaishou Technology</a>
 
 profile:
   align: right
