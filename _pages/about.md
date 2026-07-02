@@ -8,11 +8,6 @@ profile:
   align: right
   image: liang_hou_photo.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p><a href="mailto:lianghou96@gmail.com"></a></p>
-    <p><a href="https://scholar.google.com/citations?user=X48pntMAAAAJ"></a></p>
-    <p><a href="https://openreview.net/profile?id=~Liang_Hou1"></a></p>
-    <p><a href="https://github.com/liang-hou"></a></p>
 
 selected_papers: false # removes the selected-papers block from the homepage
 social: true # includes social icons at the bottom of the page
